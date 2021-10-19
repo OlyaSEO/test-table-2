@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #F4F4F4;
+    min-height: 109px;
+}
+.table-head {
+   
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+.month-control { /*переключатель месяца*/
+    width: 220px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.month {
+    font-size: 18px;
+    line-height: 21px;
+    color: #292929;
+    font-family: Roboto;
+}
+
+.today {
+    width: 59px;
+    height: 18px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column-reverse;
+    width: 1024px;
+   
+    margin: 0 auto;
+    min-height: 109px;
+}
+.controls {
+    width: 1000px;
+    height: 48px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.button-1 {
+    width: 79px;
+    height: 26px;
+    background-color: #0271C7;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.buttons-wrapper { /*это кнопки Добавить и Обновить*/
+    display: flex;
+    width: 169px;
+    justify-content: space-between;
+}
+
+
+.input-search {
+    width: 210px;
+    height:28px;
+    border-radius: 4px;
+    border: 2px solid #CFCFCF;
+}
+
+/* Стили таблицы */
+table {
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 600px;
+    margin:0 auto;
+}
+td {
+    border: 1px solid black;
+    color: #6B6B6B;
+    padding:8px;
+}
+.day {
+    width: 126px;
+    height: 16px;
+}
+.event {
+    width: 126px;
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.singer {
+    height: 32px; 
+}
+
+.event-true {
+    background-color: #C2E4FE;
+}
+
+/*стрелочка пока такая*/
+.prev {
+    border: solid #292929;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.button-prev {
+    width: 32px;
+    height: 24px;
+    box-shadow: none;
+
+}
+.button-next {
+    width: 32px;
+    height: 24px;
+}
+
+.next 
+{
+    border: solid #292929;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+}
