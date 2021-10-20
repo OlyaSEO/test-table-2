@@ -136,5 +136,22 @@ td {
     padding: 3px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-    
+}
+.search-icon {
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.input-area {
+    position: relative;
+    height: 30px;
+}
+.input-search {
+    display:block;
+    height: 100%;
+  
 }
